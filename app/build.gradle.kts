@@ -130,6 +130,6 @@ dependencies {
     testImplementation(libs.accompanist.testharness)
     testImplementation(kotlin("test"))
     implementation(libs.work.testing)
-    kspTest(libs.hilt.compiler)
+    kaptTest(libs.hilt.compiler)
 
 }
